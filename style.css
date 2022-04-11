@@ -44,6 +44,11 @@ h3 {
     color: gray;
 }
 
+.circle-one:hover {
+    background-color: lightgray;
+}
+
+
 .circle {
     width: 35px;
     height: 35px;
@@ -55,6 +60,22 @@ h3 {
     justify-content: center;
     font-weight: bolder;
     color: white;
+}
+
+.circle-one {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.circle:hover {
+    box-shadow: 1px 1px 5px 3px #8d6e63;
 }
 
 h4 {
