@@ -96,3 +96,39 @@ li {
 ol {
     margin: 15px;
 }
+
+footer {
+    height: 3rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+}
+
+.container-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.foot-text {
+    font-size: .7rem;
+    color: gray;
+}
+
+.text-after::after {
+    margin-left: 5px;
+    font-size: .5rem;
+    content: "-";
+}
+
+.fa-language {
+    margin-left: auto;
+    color: blue;
+    font-size: 1.5rem;
+}
+.select-language {
+    margin-left: 20px;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 0 1.8rem;
+}

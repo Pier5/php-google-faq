@@ -102,7 +102,23 @@
     </main>
 
 
-    <footer></footer>
+    <footer>
+        <div class="container-footer">
+            <a href="#"><span class="foot-text text-after">Google</span></a>
+            <a href="#"><span class="foot-text text-after">Tutto su Google</span></a>
+            <a href="#"><span class="foot-text text-after">Privacy</span></a>
+            <a href="#"><span class="foot-text">Termini</span></a>
+
+            
+            <i class="fa-solid fa-language"></i>
+            <select class="select-language">
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+                <option value="fr">Francois</option>
+                <option value="sp">Espanol</option>
+            </select>
+        </div>
+    </footer>
 
 </body>
 </html>
