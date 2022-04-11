@@ -8,9 +8,73 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 6.5rem;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    background-color: white;
+}
+
+.head-top,
+.head-bottom {
+    display: flex;
+    margin: 0 20px 10px;
+    align-items: center;
+}
+
+.head-logo {
+    width: 7%;
+}
+
+h3 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: gray;
+    margin-right: auto;
+}
+
+.fa-grip-vertical {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.circle {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: #8d6e63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: white;
+}
+
+h4 {
+    color: gray;
+    margin-right: 50px;
+    font-weight: lighter;
+    padding-bottom: .9rem;
+}
+
+
+.link-active {
+    padding-bottom: .9rem;
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
 .container {
     width: 1200px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding-top: 150px;
 }
 
 h1 {
