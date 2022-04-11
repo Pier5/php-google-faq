@@ -9,6 +9,30 @@
                         <p>Nei prossimi mesi lavoreremo a stretto contatto con le autorità per la protezione dei dati e con altre autorità per perfezionare il nostro approccio. La decisione della CGUE rappresenta un cambiamento significativo per i motori di ricerca. Siamo preoccupati per le sue conseguenze, ma riteniamo anche che sia importante rispettare la decisione della Corte e ci stiamo adoperando per predisporre una procedura conforme alla legge.</p> 
                         <p>Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi, non soltanto le pagine che sono state soggette a una rimozione.</p>
                         "
+        ],
+        [
+            'question' => "<h1>Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?</h1>",
+            'answer' => "
+                        <p>Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un'elevata sicurezza e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.</p>
+                        <p>Siamo costantemente al lavoro per garantire un'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google, hai il massimo controllo.</p>
+                        <p>Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel <a href='#' style='text-decoration:none'>Centro Google per la sicurezza online</a>.</p>
+                        <p><a href='#' style='text-decoration:none'>Scopri</a> quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.</p>
+                        "
+        ],
+        [
+            'question' => "<h1>Perché il mio account è associato a un paese?</h1>",
+            'answer' => "
+                        <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
+                        <ol>
+                            <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:</li>
+                                <ol type='a'>
+                                    <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+                                    <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
+                                </ol>
+                            <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
+                        </ol>
+                        <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
+                        "
         ]
     ]
 ?>
@@ -23,6 +47,7 @@
     <title>PHP Gogle FAQ</title>
 </head>
 <body>
+
     <?php
         foreach($arrQA as $element) { ?>
             <?php echo $element['question'] ?>
@@ -30,6 +55,5 @@
         <?php
         } ?>
 
-    
 </body>
 </html>
